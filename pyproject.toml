@@ -1,0 +1,14 @@
+[tool]
+[tool.poetry]
+name = "SiriUserbot_Deployer"
+version = "1.0"
+description = "Automatic Deploy SiriUserBot to Heroku"
+authors = ["ErdemBey <ErdemBey@orgutsahibi.tech>"]
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "*"
+gitpython = "*"
+heroku3 = "*"
+requests = "*"
+rich = "*"
+telethon = "*"
