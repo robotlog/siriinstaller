@@ -21,6 +21,7 @@ python3 -m siri_installer
 ## Geliştiriciler
 
 [![Erdem Bey](https://github.com/erdembey1.png?size=100)](https://t.me/siriuserbot)
+[![Berce](https://github.com/must4f.png?size=100)](https://t.me/siriuserbot)
 
 ## Lisans
 Bu proje GPL-3.0 lisansı ile korunmaktadır.Tum Haklar Saklıdır
