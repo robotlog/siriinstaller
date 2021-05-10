@@ -1,5 +1,4 @@
-from . import logo, console, bilgi,hata
-from rich.prompt import Prompt
+from . import logo, console, bilgi, hata, soru
 from rich.panel import Panel
 from time import sleep
 from json import loads
@@ -11,8 +10,12 @@ def importlang ():
     while True:
         console.clear()
         logo()
-        console.print(Panel("[blue] :wolf:[/]\n\n[1] Türkçe\n[2] Azərbaycanca\n[3] English"), justify="center")                         
-        Dil = Prompt.ask("[bold yellow]Bir dil seçin / Please select a language[/]", choices=["1", "2", "3"], default="1")
+        bilgi("[blue]\n\n[1] Türkçe\n[2] Azərbaycanca\n[3] English[/]")
+        try:   
+            Dil = int(soru("[bold yellow]Bir dil seçin / Please select a language[/]"))
+        except ValueError:
+            hata('🔢 Just Enter Number! / Sadece Sayı! / Yalnız nömrə!')
+            sleep(2)
 
         if Dil == "1":
             COUNTRY = "Turkey"
