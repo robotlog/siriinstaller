@@ -16,7 +16,7 @@ def basarili (text):
 def onemli (text):
    console.print(Panel(f'[bold cyan]{text}[/]'))                         
 def soru (soru):
-   console.print(Panel(f'[bold yellow]{text}[/]'))                         
+   console.print(Panel(f'[bold yellow]{soru}[/]'))                         
    return console.input(f"[bold yellow]\n>> [/]")
 def logo (dil = "None"):
    surum = str(sys.version_info[0]) + "." + str(sys.version_info[1])
