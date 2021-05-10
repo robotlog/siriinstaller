@@ -1,6 +1,7 @@
 from . import logo, console, bilgi,hata
 from rich.prompt import Prompt
 from rich.panel import Panel
+from time import sleep
 from json import loads
 
 def importlang ():
@@ -29,7 +30,9 @@ def importlang ():
             TZ = "Europe/London"
             break
         else:
-            hata('\n\n🏴 Wrong choice')
+            console.clear()
+            hata('🏴 Wrong choice! / Yanlış seçim! / Səhv seçim!')
+            sleep(2)
 
     return COUNTRY, LANGUAGE, TZ
 
