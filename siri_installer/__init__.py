@@ -8,16 +8,16 @@ import sys
 console = Console()
 
 def hata (text):
-   console.print(Panel(f'[bold red]{text}[/]'))                         
+   console.print(Panel(f'[bold red]{text}[/]'),justify="full")                         
 def bilgi (text):
-   console.print(Panel(f'[blue]{text}[/]'))                         
+   console.print(Panel(f'[blue]{text}[/]'),justify="full")                         
 def basarili (text):
-   console.print(Panel(f'[bold green] {text}[/]'))                         
+   console.print(Panel(f'[bold green] {text}[/]'),justify="full")                         
 def onemli (text):
-   console.print(Panel(f'[bold cyan]{text}[/]'))                         
+   console.print(Panel(f'[bold cyan]{text}[/]'),justify="full")                         
 def soru (soru):
-   console.print(Panel(f'[bold yellow]{soru}[/]'))                         
-   return console.input(f"[bold yellow]\n>> [/]")
+   console.print(Panel(f'[bold yellow]{soru}[/]'),justify="full")                         
+   return console.input(f"[bold yellow]>> [/]")
 def logo (dil = "None"):
    surum = str(sys.version_info[0]) + "." + str(sys.version_info[1])
    console.print(Panel(f"[bold blue]@SiriUserBot Installer ✨[/]\n\n[bold cyan]Version: [/][i]2.1[/]\n[bold cyan]Python: [/][i]{surum}[/]\n[bold cyan]Dil: [/][i]{dil}[/]"))                         
