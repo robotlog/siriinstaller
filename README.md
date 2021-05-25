@@ -1,14 +1,12 @@
 # Siri Installer
 
-[![Run on Repl.it](https://repl.it/badge/github/ErdemBey1/Siriinstaller)](https://repl.it/github/ErdemBey1/Siriinstaller)
-
 ### SiriUserbot Otomatik Deployer
 
-[Siri UserBot Reposu](https://github.com/ErdemBey1/SiriUserBot)
+[Siri UserBot Reposu](https://github.com/SiriUserBot/siriuserbot)
 
 ## Kurulum
 ```sh
-git clone https://github.com/ErdemBey1/siriuserbot 
+git clone https://github.com/SiriUserBot/siriuserbot 
 cd installer
 pip install -r requirements.txt
 python3 -m siri_installer
@@ -20,7 +18,6 @@ python3 -m siri_installer
 
 ## Geliştiriciler
 
-[![Erdem Bey](https://github.com/erdembey1.png?size=100)](https://t.me/siriuserbot)
 [![Berce](https://github.com/must4f.png?size=100)](https://t.me/siriuserbot)
 
 ## Lisans
