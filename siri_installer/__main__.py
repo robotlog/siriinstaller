@@ -7,6 +7,7 @@ from asyncio import get_event_loop
 from siri_installer import *
 from .astring import main
 from time import time
+from . import console
 from git import Repo
 import requests
 import heroku3
@@ -171,7 +172,8 @@ if __name__ == "__main__":
 
     Sonra = Confirm.ask(f"[bold yellow]{LANG['AFTERDEPLOY']}[/]", default=True)
     if Sonra == True:
-        BotLog = False
+        console.clear()
+        Botlog = True
         Cevap = ""
         while not Cevap == "5":
             if Cevap == "2":
