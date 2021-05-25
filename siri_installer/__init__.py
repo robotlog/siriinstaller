@@ -8,15 +8,15 @@ import sys
 console = Console()
 
 def hata (text):
-   console.print(Panel(f'[bold red]{text}[/]',width=50),justify="center")                         
+   console.print(Panel(f'[bold red]{text}[/]',width=65),justify="center")                         
 def bilgi (text):
-   console.print(Panel(f'[blue]{text}[/]',width=50),justify="center")                         
+   console.print(Panel(f'[blue]{text}[/]',width=65),justify="center")                         
 def basarili (text):
-   console.print(Panel(f'[bold green] {text}[/]',width=50),justify="center")                         
+   console.print(Panel(f'[bold green] {text}[/]',width=65),justify="center")                         
 def onemli (text):
-   console.print(Panel(f'[bold cyan]{text}[/]',width=50),justify="center")                         
+   console.print(Panel(f'[bold cyan]{text}[/]',width=65),justify="center")                         
 def soru (soru):
-   console.print(Panel(f'[bold yellow]{soru}[/]',width=50),justify="center")                         
+   console.print(Panel(f'[bold yellow]{soru}[/]',width=65),justify="center")                         
    return console.input(f"[bold yellow]>> [/]")
 def logo (dil = "None"):
    surum = str(sys.version_info[0]) + "." + str(sys.version_info[1])
