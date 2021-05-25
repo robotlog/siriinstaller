@@ -100,8 +100,8 @@ def main():
             bilgi(LANG['NEW_APP'])
             hashh = soup.find("input", {"name": "hash"}).get("value")
             bilgi("🔄 Uygulama Oluşturuluyor..")
-            app_title = choice(["si", "sir", "tg", "madelineproto", "telethon", "pyrogram"]) + choice(["", "_"]) + choice(["user", "bt", "vue", "jsx", "python", "php"]) + choice([str(randint(1000, 99999))])
-            app_shortname = choice(["si", "sir", "tg", "madelineproto", "telethon", "pyrogram"]) + choice(["", "_"]) + choice(["user", "bt", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999))])
+            app_title = choice(["sir", "siri", "tg", "madelineproto", "telethon", "pyrogram"]) + choice(["user", "bt", "vue", "jsx", "python", "php"]) + choice(["", "_"]) + choice([str(randint(10000, 99999))])
+            app_shortname = choice(["sir", "siri", "tg", "madelineproto", "telethon", "pyrogram"]) + choice(["user", "bt", "vue", "jsx", "python", "php"]) + choice(["", "_"]) + choice([str(randint(10000, 99999))])
             AppInfo = {
                 "hash": hashh,
                 "app_title": app_title,
