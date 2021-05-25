@@ -107,7 +107,7 @@ if __name__ == "__main__":
     onemli(LANG['DOWNLOADING'])
 
     SyperStringKey = "SiriUserBot"
-    GiperStringKey = "ErdemBey1/"
+    GiperStringKey = "SiriUserBot/"
     InvalidKey = "http://github.com/" 
     str1 = InvalidKey+GiperStringKey+SyperStringKey
 
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/ErdemBey1/SiriUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/SiriUserBot/SiriUserBot"
     config['SEVGILI'] = "None"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
