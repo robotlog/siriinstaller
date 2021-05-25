@@ -3,7 +3,7 @@
 name = "SiriUserbot_Deployer"
 version = "1.0"
 description = "Automatic Deploy SiriUserBot to Heroku"
-authors = ["ErdemBey <ErdemBey@orgutsahibi.tech>"]
+authors = ["SiriDev"]
 [tool.poetry.dependencies]
 python = "^3.8"
 bs4 = "*"
