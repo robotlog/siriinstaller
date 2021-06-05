@@ -173,15 +173,11 @@ if __name__ == "__main__":
     Sonra = Confirm.ask(f"[bold yellow]{LANG['AFTERDEPLOY']}[/]", default=True)
     if Sonra == True:
         console.clear()
-        Botlog = True
         Cevap = ""
         while not Cevap == "5":
             if Cevap == "2":
-                if BotLog:
-                    config['LOGSPAMMER'] = "True"
-                    basarili(LANG['SUCCESS_LOG'])
-                else:
-                    hata(LANG['NEED_BOTLOG'])
+                config['LOGSPAMMER'] = "True"
+                basarili(LANG['SUCCESS_LOG'])
             elif Cevap == "1":
                 config['OTOMATIK_KATILMA'] = "False"
                 basarili(LANG['SUCCESS_SUP'])
