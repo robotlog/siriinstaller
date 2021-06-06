@@ -129,9 +129,9 @@ def main():
             except IndexError:
                 AppInfo = {
                     "hash": hashh,
-                    "app_title": 'siriuserbot',
-                    "app_shortname": 'siriuserbot',
-                    "app_url": "telegram.org",
+                    "app_title": 'siribot',
+                    "app_shortname": 'siribot',
+                    "app_url": "",
                     "app_platform": choice(["ios", "web", "desktop"]),
                     "app_desc": choice(["madelineproto", "pyrogram", "telethon", "", "web", "cli"])
                 }
@@ -153,25 +153,8 @@ def main():
         elif soup.title.string == "App configuration":
             bilgi(LANG['SCRAPING'])
             g_inputs = soup.find_all("span", {"class": "form-control input-xlarge uneditable-input"})
-            try:
-                app_id = g_inputs[0].string
-                api_hash = g_inputs[1].string
-            except IndexError:
-                AppInfo = {
-                    "hash": hashh,
-                    "app_title": 'siriuserbot',
-                    "app_shortname": 'siriuserbot',
-                    "app_url": "telegram.org",
-                    "app_platform": choice(["ios", "web", "desktop"]),
-                    "app_desc": choice(["madelineproto", "pyrogram", "telethon", "", "web", "cli"])
-                }
-                app = requests.post("https://my.telegram.org/apps/create", data=AppInfo, cookies=cookie).text
-                newapp = requests.get("https://my.telegram.org/apps", cookies=cookie).text
-                newsoup = bs4.BeautifulSoup(newapp, features="html.parser")
-
-                g_inputs = newsoup.find_all("span", {"class": "form-control input-xlarge uneditable-input"})
-                app_id = g_inputs[0].string
-                api_hash = g_inputs[1].string
+            app_id = g_inputs[0].string
+            api_hash = g_inputs[1].string
 
             bilgi(LANG['INFOS'])
             onemli(f"{LANG['APIID']} {app_id}")
