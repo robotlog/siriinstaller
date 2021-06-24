@@ -138,6 +138,8 @@ if __name__ == "__main__":
     config['GOOGLE_CHROME_BIN'] = "/usr/sbin/chromium"
     config['HEROKU_APIKEY'] = api
     config['HEROKU_APPNAME'] = appname
+    config['SEVGILI'] = "None"
+    config['SUDO'] = "None"
     config['STRING_SESSION'] = stri
     config['HEROKU_MEMEZ'] = "True"
     config['LOGSPAMMER'] = "False"
@@ -190,8 +192,6 @@ if __name__ == "__main__":
                 basarili(LANG['SUCCESS_DEFAULTNAME'])
 
                 
-
-
             
             bilgi(f"[1] {LANG['NO_SUP']}\n[2] {LANG['NO_LOG']}\n\n[3] {LANG['NO_PMAUTO']}\n\n[4] {LANG['NO_DEFAULTNAME']}\n\n[5] {LANG['CLOSE']}")
             
