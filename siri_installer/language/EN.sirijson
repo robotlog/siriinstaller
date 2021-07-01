@@ -28,7 +28,7 @@
             "ERROR": "An error has occurred! Error:",
             "POSTGRE": "(i) Installing PostgreSql...",
             "SUCCESS_POSTGRE": "(✓) PostgreSql Installed!",
-            "AUTO_BOTLOG": "This group was automatically created with @SiriUserBot in the post-installation phase.",
+            "AUTO_BOTLOG": "This group was automatically created with @SiriOT in the post-installation phase.",
             "SIRIUSERBOT": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚂𝚎𝚝𝚞𝚙✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n`🎉 Installation completed successfully! Test the bot with the .alive command!\n\n🙃 With the .siri command, you can view all commands, and when you have a problem, you can ask the group` ** @ sirisupport **"
             "DONT_LEAVE": "** PLEASE DON'T LEAVE THIS GROUP! **",
             "AFTER_INSTALL": "Do you want to start after installation?",
