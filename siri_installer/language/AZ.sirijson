@@ -28,7 +28,7 @@
             "ERROR": "Bir xəta baş verdi! Xəta:",
             "POSTGRE": "(i) PostgreSQL yüklənir...",
             "SUCCESS_POSTGRE": "(✓) PostgreSql Yükləndi!",
-            "AUTO_BOTLOG": "Bu qrup avtomatik olaraq quraşdırılma zamanı @SiriUserBot ilə yaradılmışdır.",
+            "AUTO_BOTLOG": "Bu qrup avtomatik olaraq quraşdırılma zamanı @SiriOT ilə yaradılmışdır.",
             "SIRIUSERBOT": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚂𝚎𝚝𝚞𝚙✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n`🎉 Quraşdırma uğurla başa çatdı! Botu .alive əmri ilə sınayın!\n\n🙃 .Siri əmri ilə bütün əmrlərə baxa bilərsiniz və probleminiz olduqda` **@sirisupport**` qrupundan soruşa bilərsiniz. `",
             "DONT_LEAVE": "**BU GRUPDAN ÇIXMAYIN, ƏKSİ TƏQDİRDƏ SNİPS MODULLARINIZ İŞLƏMƏZ!**",
             "AFTER_INSTALL": "Quraşdırılma sonrası prosedurunu başlatmaq istəyirsiniz?",
